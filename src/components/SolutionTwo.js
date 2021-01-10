@@ -25,4 +25,21 @@ const SolutionHeader = () => {
   );
 };
 
-export default SolutionTwo;
+const Distance = ({ latitude, longitude }) => {
+  if (!latitude) return <div />;
+  return (
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <h4>{latitude}</h4>
+          </td>
+          <td>
+            <h4>{longitude}</h4>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+export default Distance;
