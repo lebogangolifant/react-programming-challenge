@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SolutionThree } from './SolutionTwo';
+import { SolutionThree } from './SolutionThree';
 
 const ChallengeThree = () => {
   const handleClick = () => console.log('Clicked!');
