@@ -1,10 +1,16 @@
 import React from 'react';
 
+import { SolutionThree } from './SolutionTwo';
+
 const ChallengeThree = () => {
+  const handleClick = () => console.log('Clicked!');
+
   return (
     <div>
-      <h1>Solution3</h1>
-      <p>Button</p>
+      <SolutionThree />
+      <button type='button' onClick={handleClick}>
+        view results
+      </button>
     </div>
   );
 };
