@@ -1,10 +1,10 @@
 import React from 'react';
 
+import { SolutionTwo } from './SolutionTwo';
 const ChallengeTwo = () => {
   return (
     <div>
-      <h1>Solution2</h1>
-      <p>Button</p>
+      <SolutionTwo />
     </div>
   );
 };
