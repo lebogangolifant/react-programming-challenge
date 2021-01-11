@@ -6,8 +6,6 @@ import ChallengeOne from './components/ChallengeOne';
 import ChallengeTwo from './components/ChallengeTwo';
 import ChallengeThree from './components/ChallengeThree';
 import Navigations from './components/Navigations';
-
-import './App.css';
 const App = () => {
   return (
     <BrowserRouter>
